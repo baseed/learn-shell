@@ -2,4 +2,4 @@
 
 Bash shell scripting
 
-Here are the list of topic.
+Here are the list of shell  topics
