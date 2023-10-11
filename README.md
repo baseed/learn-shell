@@ -4,5 +4,5 @@ Bash shell scripting
 
 Here are the list of shell  topics
 
-hi this shell
- this is centos 
+1. printing with echo commend
+2. variable
