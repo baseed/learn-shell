@@ -3,4 +3,4 @@ x=100
 y=true
 
 
-echa varable a=$a
+echo varable a=$a
