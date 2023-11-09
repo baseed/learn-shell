@@ -1,6 +1,6 @@
 fruit=$1case $1
 
-if[ $fruit == "apple" ]; then
+if[ $fruit =="apple" ]; then
   echo apple price is 1$
   fi
 
