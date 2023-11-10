@@ -6,8 +6,8 @@
      echo not apple
  fi
 
- if [ $fruit == "orange" ]; then
+ if [ $fruit ==  $orange ]; then
    echo orange price is 1$
    else
-     echo not apple
+     echo not orange
  fi
