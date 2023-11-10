@@ -6,7 +6,7 @@
      echo other fruit
  fi
 
- if [ $fruit ==  "orange" ]; then
+ if [[ $fruit ==  "orange" ]]; then
    echo  orange price is 2$
    else
      echo other fruit
