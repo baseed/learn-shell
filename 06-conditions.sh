@@ -5,7 +5,7 @@
 
  fi
 
- if [ $fruit -eq "orange" ]; then
+ if [[ $fruit -eq "orange" ]]; then
    echo  orange price is 2$
 
  fi
