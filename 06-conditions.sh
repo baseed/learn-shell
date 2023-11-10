@@ -1,13 +1,13 @@
  fruit=$1
 
- if [ $fruit == "$apple"]; then
+ if [ $fruit == "apple" ]; then
    echo apple price is 1$
    else
-     echo not apple
+     echo other fruit
  fi
 
- if [ $fruit ==  "$orange"]; then
+ if [ $fruit ==  "orange" ]; then
    echo orange price is 2$
    else
-     echo not orange
+     echo other fruit
  fi
