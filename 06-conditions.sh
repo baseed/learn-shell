@@ -2,8 +2,9 @@
 
  if [ $fruit == "apple" ]; then
    echo  apple price is 1$
- fi
+ 3fi
 
- if [ $fruit == "orange" ]; then
+ #if [ $fruit == "orange" ]; then
+  else
    echo  orange price is 2$
  fi
