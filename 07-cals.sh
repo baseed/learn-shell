@@ -10,9 +10,9 @@
   # 50-70 orange
   # >70 Red
 
-  if [ used_percentage -lt 50 ]; then
+  if [ $used_percentage -lt 50 ]; then
      echo Mem start is GREEN
-  elif [ used_percentage -lt 70 ]; then
+  elif [ $used_percentage -lt 70 ]; then
      echo Mem start is orange
   else
      echo Mem is Red
