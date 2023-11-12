@@ -3,5 +3,5 @@
 
  free_percentage=$(echo "$free / $total * 100" | bc -l | awk -F . '{print $1}')
  echo free_percentage $free_percentage
-  ufree_percentage=$(echo "$free / $total * 100" | bc -l | awk -F . '{print $1}')
+  ufree_percentage=$(echo "100 - $free / $total * 100" | bc -l | awk -F . '{print $1}')
   echo ufree_percentage $ufree_percentage
